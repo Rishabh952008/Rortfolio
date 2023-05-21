@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.Nav-bar{
+  position: sticky;
+  background-color: #22213b;
+  width: 100%;
+  position: relative;
+}
+.nav2{
+  position: sticky;
+  background-color: #22213b;
+  display: flex;
+
+}
+.nav2 ul{
+  display: flex;
+  margin-left: 28%;
+  width: 100%;
+  position: absolute;
+}
+.nav2 a{
+  text-decoration: none;
+    list-style-type: none;
+}
+.nav2  a h1 b{
+  font-size: 38px;
+  font-family: sans-serif;
+}
+.nav2  a h1{
+
+  margin: 1vw 16.2vh;
+  color: white;
+}
+.nav2 ul li{
+    padding: 2vh 2vw;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.Nav_bar nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}

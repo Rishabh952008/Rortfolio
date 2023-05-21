@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Montserrat&family=PT+Serif&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ overflow: hidden
+
+}
+.Nav-bar{
+  position: sticky;
+  background-color: #1b2326;
+  width: 100%;
+
+}
+.nav2{
+  position: sticky;
+  background-color: #1b2326;
+  display: flex;
+
+}
+.nav2 ul{
+  display: flex;
+  margin-left: 28%;
+  width: 100%;
+  padding-top: 2vh;
+
+}
+.nav2 a{
+  text-decoration: none;
+    list-style-type: none;
+}
+.nav2  a h1 b{
+  font-size: 38px;
+  font-family: sans-serif;
+  color: orange;
+}
+.nav2  a h1{
+
+  margin: 1vw 16.2vh;
+  color: white;
+  font-size: 28px;
+}
+.nav2 ul li{
+    padding: 0.8vh 2vw;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.Nav_bar nav ul li a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.box{
+  display: flex;
+  margin-top:6rem;
+
+ height: 70vh;
+ width: 58vw;
+ margin-left: 20vw;
+ border-radius: 20px;
+}
+.b1{
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   height: 70vh;
+   width: 50%;
+
+}
+.b2{
+  background-color: white;
+   height: 70vh;
+   width: 50%;
+}
+.form label{
+  margin: 10px 2px 2px 2px;
+  padding-left: 8px;
+}
+.form input{
+
+  padding-left: 20px;
+  width: 80%;
+  border-width: 0;
+}
+.btn-lg{
+  width: 27vw;
+  margin-left: 0.8rem;
+}
+.mt-2{
+  margin-left:0.8rem;
+}
+.mt-2 a{
+  text-decoration: none;
+
+}
+hr{
+  opacity:1.0;
+  margin-top: -0.5rem;
+  margin-left: 0.9rem;
+  background-color: pink;
+}
